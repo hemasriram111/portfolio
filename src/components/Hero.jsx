@@ -1,5 +1,4 @@
 import { profile } from "../data";
-import resume from "../assets/Hema_Sriram_Resume.pdf";
 
 export default function Hero() {
     return (
@@ -30,13 +29,15 @@ export default function Hero() {
                             <span className="relative z-10">Get in Touch</span>
                             <svg
                                 className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
                             >
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </a>
                         <a
-                            href={resume}
-                            download="Hema_Sriram_Resume.pdf"
+                            href="https://hemasriram111.github.io/portfolio/Hema_Sriram_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 bg-white/5 text-white font-medium hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm"
