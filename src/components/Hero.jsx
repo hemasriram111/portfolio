@@ -37,7 +37,8 @@ export default function Hero() {
                             </svg>
                         </a>
                         <a
-                            href="https://hemasriram111.github.io/portfolio/Hema_Sriram_Resume.pdf"
+                            href={`${import.meta.env.BASE_URL}Hema_Sriram_Resume.pdf`}
+                            download="Hema_Sriram_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 bg-white/5 text-white font-medium hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm"
