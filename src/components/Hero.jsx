@@ -1,4 +1,5 @@
 import { profile } from "../data";
+import resume from "../assets/resume.pdf";
 
 export default function Hero() {
     return (
@@ -37,7 +38,7 @@ export default function Hero() {
                             </svg>
                         </a>
                         <a
-                            href={`${import.meta.env.BASE_URL}Hema_Sriram_Resume.pdf`}
+                            href={resume}
                             download="Hema_Sriram_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
