@@ -1,4 +1,5 @@
 import { profile } from "../data";
+import resume from "../assets/Hema_Sriram_Resume.pdf";
 
 export default function Hero() {
     return (
@@ -29,15 +30,12 @@ export default function Hero() {
                             <span className="relative z-10">Get in Touch</span>
                             <svg
                                 className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
                             >
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                             </svg>
                         </a>
                         <a
-                            href={`${import.meta.env.BASE_URL}Hema_Sriram_Resume.pdf`}
+                            href={resume}
                             download="Hema_Sriram_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
