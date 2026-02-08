@@ -37,7 +37,7 @@ export default function Hero() {
                             </svg>
                         </a>
                         <a
-                            href="/resume.pdf"
+                            href="resume.pdf"
                             download
                             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border border-white/20 bg-white/5 text-white font-medium hover:bg-white/10 hover:border-white/40 transition-all duration-300 backdrop-blur-sm"
                         >
@@ -53,7 +53,7 @@ export default function Hero() {
 
                         <div className="relative w-64 h-96 sm:w-80 sm:h-[30rem] rounded-3xl overflow-hidden border-4 border-slate-900 shadow-2xl">
                             <img
-                                src="/your-photo.jpg"
+                                src="your-photo.jpg"
                                 alt="Hema Sriram"
                                 className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-700 ease-in-out"
                             />
